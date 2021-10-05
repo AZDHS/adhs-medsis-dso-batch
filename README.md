@@ -1,9 +1,7 @@
-# Splitting one SAS dataset into many
+# Code for MEDSIS Batching
 
 # Overview
-This SAS code can be used to split one dataset into smaller datasets based on a maximum row per dataset requirement
-
-Context: Arizona's statewide public health surveillance system requires batch files that are 300 rows or less. We use this SAS program to split our larger datasets into smaller datasets, each with 300 or less rows.
+This repository contains SAS programs that can be used to generate MEDSIS batch files.
 
 
 # Notes and Considerations
