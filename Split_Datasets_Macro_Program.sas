@@ -2,8 +2,9 @@
 /* ---------------------------------------------------------------------------------------------------------------------------------------
    Program:      Split Dataset into Smaller Datasets with Max Row Requirement
    Updated:      9-23-2021
-   Description:  This program can be used to split one SAS dataset into multiple smaller datasets with a maximum row # and export them. 
-                 For example, this program can split a 1000 row dataset into 4 datasets if the max row # is 300 per dataset.
+   Description:  DSO batch files for MEDSIS cannot have more than 300 rows per file.
+                 This program can be used to split one SAS dataset into multiple smaller datasets with only 300 rows per dataset and output
+		 them as .txt files for MEDSIS batching.
    --------------------------------------------------------------------------------------------------------------------------------------- */
 
 %let outpath = ; *<----------------Enter the file path for exporting;
