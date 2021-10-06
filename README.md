@@ -3,7 +3,6 @@
 # Overview
 This repository contains SAS programs that can be used to generate MEDSIS batch files.
 
-
 # Notes and Considerations
 None.
 
