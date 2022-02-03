@@ -6,6 +6,8 @@
    Description:  This program was created to provide an example of code used to create DSO batch files for MEDSIS. It was 
                  pulled from the QUALTRICS_DSO_BATCH program and has been simplied for this example.
 ---------------------------------------------------------------------------------------------------------------------------- */
+/*I want to make a change*/
+
 
 *creating dataset for DSO variables;
 DATA DSO 
@@ -32,8 +34,6 @@ HHNUM_TXT     =PUT(HHNUM, 8.);
 NONHHNUM_TXT  =PUT(NONHHNUM, 8.);
 EVENTNUM_TXT  =PUT(EVENTNUM,8.);
 
-*remove any line feeds;
-array m _CHARACTER_; do i=1 to dim(m); if m[i]^="" then m[i]=translate(m[i],' ','0A'x); end; drop i; 
 
 RUN; 
 
